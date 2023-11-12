@@ -5,9 +5,9 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
 	"features": {
-		"ghcr.io/guiyomh/features/just:0": {
-			"version": "latest"
-		}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/guiyomh/features/just:0": {},
+		"ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:0": {}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
